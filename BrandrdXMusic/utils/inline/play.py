@@ -71,7 +71,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
                 text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/itz_alpha_dude"
             ),
             InlineKeyboardButton(
-                text="", url=f"https://t.me/BRANDED_WORLD"
+                text="🍷 𝐂𖽻𖽖𖾓 😻", url=f"https://t.me/izzy_tamil_junction"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -93,7 +93,7 @@ def stream_markup(_, videoid, chat_id):
                 text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/itz_alpha_dude"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/BRANDED_WORLD"
+                text="🍷 𝐂𖽻𖽖𖾓 😻", url=f"https://t.me/izzy_tamil_junction""
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -219,7 +219,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴍᴏʀᴇ ❥",
+                text="🍷 𝐌𖽙𖽷𖽞 😻",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
@@ -248,7 +248,7 @@ def stream_markup2(_, chat_id):
                 text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/itz_alpha_dude"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/BRANDED_WORLD"
+                text="🍷 𝐂𖽻𖽖𖾓 😻", url=f"https://t.me/izzy_tamil_junction""
             ),
         ],
 
@@ -312,7 +312,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🎧 sᴜғғʟᴇ ❥",
+                text="🍷 𝐒𖽻𖽪𝙵𝙵𖾘𖽞 😻",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(text="ʟᴏᴏᴘ ↺", callback_data=f"ADMIN Loop|{chat_id}"),
@@ -329,11 +329,11 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❥ ʜᴏᴍᴇ ❥",
+                text="🍷 𝐇𖽙𖽧𖽞 😻",
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="❥ ɴᴇxᴛ ❥",
+                text="🍷 𝐍𖽞𝅃𖾓 😻",
                 callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
         ],
@@ -375,7 +375,7 @@ def panel_markup_2(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❥ ʙᴀᴄᴋ ❥",
+                text="🍷 𝐁𖽖𖽝ᴋ 😻",
                 callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
         ],
@@ -406,11 +406,11 @@ def panel_markup_5(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❥ ʜᴏᴍᴇ ❥",
+                text="🍷 𝐇𖽙𖽧𖽞 😻",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="❥ ɴᴇxᴛ ❥",
+                text="🍷 𝐍𖽞𝅃𖾓 😻",
                 callback_data=f"Pages Forw|1|{videoid}|{chat_id}",
             ),
         ],
@@ -446,7 +446,7 @@ def panel_markup_3(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❥ ʙᴀᴄᴋ ❥",
+                text="🍷 𝐁𖽖𖽝ᴋ 😻",
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
         ],
@@ -505,7 +505,7 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="❥ ʜᴏᴍᴇ ❥",
+                text="🍷 𝐇𖽙𖽧𖽞 😻",
                 callback_data=f"MainMarkup {vidid}|{chat_id}",
             ),
         ],
@@ -531,15 +531,15 @@ def panel_markup_clone(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {vidid}"
+                text="🍷 𝐕𖽹𖽴𖽞𖽙 😻", callback_data=f"downloadvideo {vidid}"
             ),
             InlineKeyboardButton(
-                text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {vidid}"
+                text="🍷 𝐀𖽪𖽴𖽹𖽙 😻", callback_data=f"downloadaudio {vidid}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✚ ᴘʟᴀʏʟɪsᴛ ✚", callback_data=f"branded_playlist {vidid}"
+                text="🍷 𝐏𖾘𖽖ʏ𖾘𖽹𖾗𖾓 😻", callback_data=f"branded_playlist {vidid}"
             ),
         ],
     ]
