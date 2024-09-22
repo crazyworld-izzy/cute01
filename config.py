@@ -8,24 +8,24 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "13399054"))
+API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "7406231021:AAELE2lkm2Eav8EZaLdXXeClUqNsvmYr4dw")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "5598323486"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = getenv("STRING_SESSION",  "BQFA8p8AcqB8w2ycSbwzqoDeW4yWSq5nL4YLK_N1SXeHavzvvcl1Eie8ZJc2_B9V2MlIjr2i8f-a-ZESTmgt2p3-NiZhLGhv-V2apZM7_8UbFHGWEllYVrTCYt3YtgtTXMg_39kOA0hYf_3nRHgBPnviWt4eYd61kq_VKrIGallHorQdVZvgH_CkeRH7uODHge-GcVs3LW7Y6wkqIPrU_dcobvLUlQmP2c9cVzoQ2aLiO1_vEaxZzbvO_6UG_0RQ1AI0L3c49aYoAdpsT8UbqngDty0JS6dZ8mVLj4Ap8258oxHlxADQ5p6pJ8-lffOS_2Sbi5YAdwrBDviKOAE00FPkIwuCcQAAAAG1FHf1AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
