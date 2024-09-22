@@ -73,10 +73,10 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ⛦", url=f"https://t.me/BRANDEDKING8"
+                text="🍷 𝐌𖽙𖽷𖽞 😻", url=f"https://t.me/itz_alpha_dude"
             ),
             InlineKeyboardButton(
-                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/BRANDED_WORLD"
+                text="🍷 𝐆𖽷𖽙𖽪𖽳 😻", url=f"https://t.me/izzy_tamil_junction"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -112,8 +112,8 @@ def queuemarkup(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/BRANDED_WORLD",
+                text="🍷 𝐌𖽙𖽷𖽞 😻",
+                url="https://t.me/itz_alpha_dude",
             ),
         ],
     ]
