@@ -93,7 +93,7 @@ def stream_markup(_, videoid, chat_id):
                 text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/itz_alpha_dude"
             ),
             InlineKeyboardButton(
-                text="🍷 𝐂𖽻𖽖𖾓 😻", url=f"https://t.me/izzy_tamil_junction""
+                text="🍷 𝐂𖽻𖽖𖾓 😻", url=f"https://t.me/izzy_tamil_junction"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
