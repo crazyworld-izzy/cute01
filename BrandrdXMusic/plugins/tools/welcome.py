@@ -43,7 +43,7 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("BrandrdXMusic/assets/Brandedwel2.png")
+    background = Image.open("BrandrdXMusic/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor)
     pfp = pfp.resize((892, 800))
@@ -103,7 +103,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "BrandrdXMusic/assets/Brandedwel2.png"
+        pic = "BrandrdXMusic/assets/wel2.png"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
@@ -149,21 +149,5 @@ async def greet_group(_, member: ChatMemberUpdated):
             )
     except Exception as e:
         LOGGER.error(e)
-    try:
-        os.remove(f"downloads/welcome#{user.id}.png")
-        os.remove(f"downloads/pp{user.id}.png")
-    except Exception as e:
-        pass
 
-@app.on_message(filters.new_chat_members & filters.group, group=-1)
-async def bot_wel(_, message):
-    for u in message.new_chat_members:
-        if u.id == app.me.id:
-            await app.send_message(LOG_CHANNEL_ID, f"""
-NEW GROUP
-➖➖➖➖➖➖➖➖➖➖➖
-𝗡𝗔𝗠𝗘: {message.chat.title}
-𝗜𝗗: {message.chat.id}
-𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄: @{message.chat.username}
-➖➖➖➖➖➖➖➖➖➖➖
-""")
+\
